@@ -153,3 +153,5 @@ Para administrar un directorio telefónico sin claves duplicadas y ordenado por 
 
 ![alt text](image.png)
 
+![alt text](image-1.png)
+
