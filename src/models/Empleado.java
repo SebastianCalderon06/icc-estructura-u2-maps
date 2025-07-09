@@ -11,6 +11,14 @@ public class Empleado implements Comparable<Empleado> {
         this.position = position;
     }
 
+    
+
+    public Empleado(int id) {
+        this.id = id;
+    }
+
+
+
     public int getId() {
         return id;
     }
@@ -22,6 +30,8 @@ public class Empleado implements Comparable<Empleado> {
     public String getPosition() {
         return position;
     }
+
+    
 
     @Override
     public String toString() {
@@ -65,6 +75,18 @@ public class Empleado implements Comparable<Empleado> {
         result = this.name.compareTo(other.name);
         if (result != 0) return result;
         return this.position.compareTo(other.position);
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     
